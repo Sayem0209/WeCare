@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NGOMessage"
+    android:padding="30dp"
+    android:background="@drawable/mback">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/backlogo" />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back"
+        android:layout_marginTop="5dp"
+        android:text="Enter a message to approach the NGO for you participation."
+        android:textAlignment="center"
+        android:textColor="#a4ffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n"
+        android:layout_marginTop="60dp"
+        android:hint="Phone Number"
+        android:paddingTop="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/number"
+        android:gravity="top"
+        android:hint="Type Message"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+
+
+</RelativeLayout>

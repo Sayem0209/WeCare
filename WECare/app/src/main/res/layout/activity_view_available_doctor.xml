@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAvailableSchool"
+    android:background="@drawable/tb">
+
+    <TextView
+        android:id="@+id/avail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Available Doctors "
+
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/avail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profileback"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Patient's Information"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/texview1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="20dp"
+            />
+        <TextView
+            android:id="@+id/texview1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/texview2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="20dp"
+
+            />
+        <TextView
+            android:id="@+id/texview2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/texview3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserID: "
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_compass_calibration_24"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/texview3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/texview4a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/texview4b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout4"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/texview5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease: "
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_fact_check_24"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/texview5b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout5"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/texview6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group: "
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_bloodtype_24"
+            android:drawablePadding="20dp"
+            />
+        <TextView
+            android:id="@+id/texview6b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25dp"
+
+            android:textColor="#81D4FA"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout6"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#81D4FA"
+        android:text="logout"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">WE-Care</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="patient_s_registration">Patient\'s Registration</string>
+
+    <string-array name="Available">
+        <item>(default)</item>
+        <item>9 AM-12 PM</item>
+        <item>12 PM-3 PM </item>
+        <item>3 PM-6 PM</item>
+    </string-array>
+    <string-array name="diseaseS">
+        <item>(default)</item>
+        <item>Asperger’s Syndrome</item>
+        <item>Rett Syndrome</item>
+        <item>Childhood Disintegrative Disorder(CDD)</item>
+        <item>Pervasive Developmental Disorder </item>
+        <item>Kanner’s Syndrome</item>
+    </string-array>
+
+    <string-array name="rateS">
+        <item>(default)</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="bloodS">
+        <item>(default)</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="addressS">
+        <item>(default)</item>
+        <item>Mohammadpur Thana</item>
+        <item>Lalbagh Thana</item>
+        <item>Dhanmondi Thana</item>
+        <item>Keranigonj Upozilla</item>
+        <item>Savar Upozilla</item>
+        <item>Tejgaon Thana</item>
+    </string-array>
+</resources>

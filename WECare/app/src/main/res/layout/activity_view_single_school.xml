@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSingleSchool"
+    android:background="@drawable/nback">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sback" />
+
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="School Details"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/details"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/schoolname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Name: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/schoolnameedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Location: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/locationedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/EIIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="EIIN Number: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/EIINedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Rating: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/ratingedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Contact: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/contactedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="E-mail: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/emailedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/specia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Specialised: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/speciaedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Fee: "
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/feeedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#d60818"
+        android:text="Apply"
+        android:textColor="@color/white" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/schoolname"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/details"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Name: "-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/schoolnameedit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/details"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_toRightOf="@+id/schoolname"-->
+<!--        android:text="Name"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/location"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/schoolname"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Location: "-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/locationedit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/schoolname"-->
+<!--        android:layout_toRightOf="@+id/location"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/EIIN"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/location"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:text="EIIN Number: "-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/EIINedit"-->
+<!--        android:layout_below="@+id/location"-->
+<!--        android:layout_toRightOf="@+id/EIIN"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/rating"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/EIIN"-->
+
+<!--        android:text="Rating: "-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ratingedit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/EIIN"-->
+<!--        android:layout_toRightOf="@+id/rating"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/contact"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/rating"-->
+<!--        android:text="Contact: "-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:paddingTop="5dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/contactedit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/rating"-->
+<!--        android:layout_toRightOf="@+id/contact"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/email"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/contact"-->
+<!--        android:text="E-Mail: "-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:paddingTop="5dp"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/emailedit"-->
+<!--        android:layout_below="@+id/contact"-->
+<!--        android:layout_toRightOf="@+id/email"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/specia"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/email"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:text="Specialised-In: "-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="25dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/speciaedit"-->
+<!--        android:layout_below="@+id/email"-->
+<!--        android:layout_toRightOf="@+id/specia"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/fee"-->
+<!--        android:layout_below="@+id/specia"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Fee: "-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:paddingTop="5dp"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/feeedit"-->
+<!--        android:layout_below="@+id/specia"-->
+<!--        android:layout_toRightOf="@+id/fee"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"-->
+<!--        android:textSize="25dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/feeedit"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:backgroundTint="#d60818"-->
+<!--        android:text="Apply"-->
+<!--        android:textColor="@color/white" />-->
+
+
+
+
+</RelativeLayout>

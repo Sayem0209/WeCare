@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverviewDisease"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/diseasename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DiseaseName"
+        android:textSize="30dp"
+        android:textColor="#7bb6b8"/>
+
+    <TextView
+        android:id="@+id/whatsyndrome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/diseasename"
+        android:text="What are the Syndrome for the Disease?"
+        android:textColor="#7bb6b8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/whatsyndromeans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whatsyndrome"
+        android:text="Ans"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/whattreatment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whatsyndromeans"
+        android:text="How is the disease treated?"
+        android:textSize="20dp"
+        android:textColor="#7bb6b8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/whattreatmentans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whattreatment"
+        android:text="Ans"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NGOs">
+    <TextView
+        android:id="@+id/ngo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="NGO's for ASD patients"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ngo"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ngo01" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image1"
+                android:text="Shishu Bikash Kendra"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/established1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name1"
+                android:layout_toRightOf="@+id/image1"
+                android:text="Established: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/establisheddate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name1"
+                android:layout_toRightOf="@+id/established1"
+                android:text="1992"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ngo02" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image2"
+                android:text="Bangladesh Protibondi Foundation"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/established2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name2"
+                android:layout_toRightOf="@+id/image2"
+                android:text="Established: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/establisheddate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name2"
+                android:layout_toRightOf="@+id/established2"
+                android:text="1984"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ngo03" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image3"
+                android:text="BRAC Inclusive Educaton Programme"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/established"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name3"
+                android:layout_toRightOf="@+id/image3"
+                android:text="Established: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/establisheddate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name3"
+                android:layout_toRightOf="@+id/established"
+                android:text="2003"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ngo04" />
+
+            <TextView
+                android:id="@+id/name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image4"
+                android:text="Care"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/established4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name4"
+                android:layout_toRightOf="@+id/image4"
+                android:text="Established: "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/establisheddate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name4"
+                android:layout_toRightOf="@+id/established4"
+                android:text="1998"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
